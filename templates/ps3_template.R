@@ -1,0 +1,51 @@
+# ECON 121 Problem Set 3
+# Name: 
+# Date: 
+  
+############
+#Question 1#
+############
+  
+# List group members.
+
+###########
+#Problem 2#
+###########
+
+# Code and verbal answer.
+
+###########
+#Problem 3#
+###########
+  
+# Code and verbal answer.
+
+###########
+#Problem 4#
+###########
+  
+# Code and verbal answer.
+
+###########
+#Problem 5#
+###########
+  
+# Code and verbal answer.
+
+###########
+#Problem 6#
+###########
+  
+# Code and verbal answer.
+
+###########
+#Problem 7#
+###########
+
+# Verbal answer only, no code.
+
+###########
+#Problem 8#
+###########
+  
+# Code and verbal answer.
