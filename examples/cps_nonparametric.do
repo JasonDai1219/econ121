@@ -37,11 +37,11 @@ gen lninc = ln(incwage)
 sum lninc
 
 *kernel density estimates of log income by race and sex
-*let's use .25 as the bandwidth, about a quarter of the sd of lninc.
-twoway (kdensity lninc if black==1&female==1,bw(.25) lcolor(orange_red)) ///
-       (kdensity lninc if white==1&female==1,bw(.25) lcolor(dknavy)) ///
-       (kdensity lninc if black==1&male==1,bw(.25) lcolor(orange_red) lpattern(dash)) ///
-       (kdensity lninc if white==1&male==1,bw(.25) lcolor(dknavy) lpattern(dash)) ///
+*let's use .2 as the bandwidth, about a quarter of the sd of lninc.
+twoway (kdensity lninc if black==1&female==1,bw(.2) lcolor(orange_red)) ///
+       (kdensity lninc if white==1&female==1,bw(.2) lcolor(dknavy)) ///
+       (kdensity lninc if black==1&male==1,bw(.2) lcolor(orange_red) lpattern(dash)) ///
+       (kdensity lninc if white==1&male==1,bw(.2) lcolor(dknavy) lpattern(dash)) ///
 	   ,legend(label(1 "Black women") label(2 "White women") ///
 	           label(3 "Black men") label(4 "White men"))
 			   

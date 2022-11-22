@@ -38,10 +38,10 @@ cps18$racesex <- as.factor(ifelse(cps18$race == 200 & cps18$sex == 2, 'Black wom
                            ifelse(cps18$race == 200 & cps18$sex == 1, 'Black men',  
                            ifelse(cps18$race == 100 & cps18$sex == 1, 'White men', 'Other')))))
 # kernel density estimates of log income by race and sex
-# let's use .25 as the bandwidth, about a quarter of the sd of lninc.
+# let's use .2 as the bandwidth, about a quarter of the sd of lninc.
 library(tidyverse)
 ggplot(data=cps18, aes(x=lninc, group=racesex, fill=racesex)) +
-  geom_density(bw=.25,alpha=.4) #alpha specifies the transparency of the colors
+  geom_density(bw=.2,alpha=.4) #alpha specifies the transparency of the colors
 
 # now let's try a bandwidth of .1 -> higher variance but more detail
 ggplot(data=cps18, aes(x=lninc, group=racesex, fill=racesex)) +
