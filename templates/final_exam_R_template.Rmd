@@ -1,0 +1,127 @@
+---
+output: pdf_document
+---
+
+ECON 121 FINAL EXAM - FALL 2022
+
+Name: 
+
+8 December 2022
+
+I hereby declare I wrote my own written answers and my own code and did not copy from anyone else. I understand that copying some else's answer can result in negative infinity points for both parties. 
+
+Question 1
+
+```{r}
+
+# code here
+
+```
+
+Question 2
+
+Written answer here.
+
+Question 3
+
+```{r}
+
+# code here
+
+```
+
+Question 4
+
+Written answer here.
+
+Question 5
+
+```{r}
+
+# code here
+
+```
+
+Question 6
+
+Written answer here.
+
+Question 7
+
+```{r}
+
+# code here
+
+```
+
+Question 8
+
+Written answer here.
+
+Question 9
+
+```{r}
+
+# code here
+
+```
+
+Question 10
+
+Written answer here.
+
+Question 11
+
+Written answer here.
+
+Question 12
+
+Written answer here.
+
+Question 13
+
+Written answer here.
+
+Question 14
+
+```{r}
+
+# code here
+
+```
+
+Question 15
+
+```{r}
+
+# code here
+
+```
+
+Question 16
+
+Written answer here.
+
+Question 17
+
+```{r}
+
+# code here
+
+```
+
+Question 18
+
+Written answer here.
+
+Question 19
+
+Written answer here.
+
+Question 20
+
+```{r}
+
+# code here
+
+```
